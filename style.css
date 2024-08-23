@@ -1,0 +1,47 @@
+body {
+    background-color: gainsboro;
+}
+
+.container {
+    background-color: white;
+    
+    border: 1px solid rgb(215, 214, 214);
+    padding: 1rem
+}
+
+
+.fa-check {
+    color: rgb(64, 180, 1);
+}
+
+.bg-yellow {
+    background-color: rgb(240, 218, 145);
+}
+
+.text-grey {
+    color : grey
+}
+
+.input1 {
+    border: 1px solid rgba(251, 212, 81, 0.832)
+    
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.container2 {
+    background-color: gainsboro;
+    border: none;
+    padding: 1rem 0;
+
+}
+
+.brands {
+    overflow-x: scroll;
+    width: 100%;
+}
