@@ -3,8 +3,7 @@ body {
 }
 
 .container {
-    background-color: white;
-    
+    background-color: white;    
     border: 1px solid rgb(215, 214, 214);
     padding: 1rem
 }
@@ -12,6 +11,19 @@ body {
 
 .fa-check {
     color: rgb(64, 180, 1);
+}
+
+.green {
+    color: rgb(64, 180, 1);
+}
+
+.bg-green {
+    background-color: rgb(64, 180, 1);
+    color: white;
+    width: 1.8rem;
+    padding: 0 0 0 0.2rem
+    
+
 }
 
 .bg-yellow {
@@ -42,6 +54,37 @@ a {
 }
 
 .brands {
-    overflow-x: scroll;
-    width: 100%;
+    overflow-x: scroll;  
+    
+    
+    white-space: nowrap;
+
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.fomt-small {
+    font-size: 0.85rem;
+}
+
+.stars {
+    color: goldenrod;
+}
+
+
+.rate-btn {
+    color: grey;
+}
+
+.advanced {
+    color: blue;
+    text-decoration: underline;
+}
+
+.tyres:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
 }
