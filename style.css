@@ -4,7 +4,7 @@
     background-color: white;    
     border: 1px solid rgb(215, 214, 214);
     padding: 1rem;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
 
 }
 
@@ -132,9 +132,7 @@ a {
 }
 
 
-.login {
-    margin-left: 290px; margin-top: 10px;
-}
+
 
 .tyres {
     width: 100%
@@ -142,19 +140,39 @@ a {
 
 .review-cards {
     width: 50%;
+    height: 400px;
     
 }
 
+.shop-images {
+    width: 350px;
 
-@media (min-width: 768px) { 
-    .login {
-        margin-left: 240px; 
-        margin-top: 0;
-    }
+}
+
+
+
+.navbar-container {
+    border: 1px solid gainsboro;
+   
+}
+
+
+@media (min-width: 769px) { 
+  
 
     .review-cards {
-        width: 32%;
-        height: 180px
+        width: 350px;
+        height: 120px;
+        text-overflow: ellipsis;
+    }
+
+    .shop-images {
+       width:  650px;
+    }
+
+    .review-para {
+        height: 150px;
+        width: 320px
     }
     
 
