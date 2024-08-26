@@ -1,11 +1,11 @@
-body {
-    background-color: gainsboro;
-}
+
 
 .container {
     background-color: white;    
     border: 1px solid rgb(215, 214, 214);
-    padding: 1rem
+    padding: 1rem;
+    margin-top: 1rem;
+
 }
 
 
@@ -35,8 +35,12 @@ body {
 }
 
 .input1 {
-    border: 1px solid rgba(251, 212, 81, 0.832)
+    border: 1px solid #fbd451d4
     
+}
+.year-warranty {
+    background-color: #fbd451d4;
+    padding: 0.25rem 0.5rem
 }
 
 a {
@@ -50,6 +54,7 @@ a {
     background-color: gainsboro;
     border: none;
     padding: 1rem 0;
+    font-size: 0.8rem;
 
 }
 
@@ -87,4 +92,71 @@ a {
 .tyres:hover {
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 
+}
+
+.black {
+    color: black;
+   
+}
+.capitalize {
+    text-transform: uppercase;
+    
+}
+.hover-black:hover {
+    color: black
+
+}
+
+#navbarDropdown:hover {
+    text-decoration: underline rgb(195, 24, 24);
+
+    
+}
+
+.reviews {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+
+.card-links {
+    
+   
+    text-decoration: none;
+
+}
+
+.bigger {
+    font-size: 1rem;
+}
+
+
+.login {
+    margin-left: 290px; margin-top: 10px;
+}
+
+.tyres {
+    width: 100%
+}
+
+.review-cards {
+    width: 50%;
+    
+}
+
+
+@media (min-width: 768px) { 
+    .login {
+        margin-left: 240px; 
+        margin-top: 0;
+    }
+
+    .review-cards {
+        width: 32%;
+        height: 180px
+    }
+    
+
+ 
 }

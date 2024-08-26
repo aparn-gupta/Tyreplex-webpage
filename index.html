@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/26bcd7cc45.js" crossorigin="anonymous"></script>
-    <script src = "https://unpkg.com/@mui/material@latest/umd/material-ui.development.js">   </script>
-    <script src = "https://unpkg.com/@mui/material@latest/umd/material-ui.production.min.js">   </script>
-    <link rel="stylesheet" href="style.css"  />
+   
+       <link rel="stylesheet" href="style.css"  />
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <nav class="navbar navbar-light navbar-expand-lg bg-light justify-content-between">
+<body class="bg-light">
+
+    <div class="container container2 fs-6"> 
+    <nav class="navbar navbar-light navbar-expand-lg " >
      
    
         <a class="navbar-brand h1"
@@ -20,11 +20,16 @@
         <img src="https://cdn.tyreplex.net/themes/sunrise/images/TP-logo.png"  width="140" height="auto" />
 
         </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
    
 
-        <div class="w-50 collapse navbar-collapse"  id="navbarSupportedContent">
+        <div class=" collapse navbar-collapse"  id="navbarSupportedContent">
             <ul class="navbar-nav fw-bold">
-                <li class="nav-item dropdown active"> <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"> Car Tyres </a> 
+                <li class="nav-item dropdown active"> <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown"> Car Tyres </a> 
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="#"> CEAT Tyres </a>
                     <a class="dropdown-item" href="#"> Apollo Tyres </a>
@@ -36,7 +41,7 @@
                     <a class="dropdown-item" href="#"> All Car Tyres </a>
 
                 </div></li>
-                <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle " id=" navbarDropdown" data-toggle="dropdown" > Bike Tyres </a>
+                <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle " id="navbarDropdown" data-bs-toggle="dropdown" > Bike Tyres </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#"> CEAT Tyres </a>
                         <a class="dropdown-item" href="#"> Apollo Tyres </a>
@@ -48,15 +53,15 @@
                         <a class="dropdown-item" href="#"> All Car Tyres </a>
     
                     </div> </li>
-                <li class="nav-item  "> <a href="#" class="nav-link  " id=" navbarDropdown"> Tyre Pressure </a>
+                <li class="nav-item  "> <a href="#" class="nav-link  " id="navbarDropdown"> Tyre Pressure </a>
                  </li>
-                <li class="nav-item dropdown "> <a href="#" class="nav-link dropdown-toggle " id=" navbarDropdown" data-toggle="dropdown"> Commercial Tyres </a>
+                <li class="nav-item dropdown "> <a href="#" class="nav-link dropdown-toggle " id="navbarDropdown" data-bs-toggle="dropdown"> Commercial Tyres </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#"> All Commercial Tyres </a>
                        
     
                     </div> </li>
-                <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle " id=" navbarDropdown" data-toggle="dropdown"> Accessories </a>
+                <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle " id="navbarDropdown" data-bs-toggle="dropdown"> Accessories </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#"> Accessories </a>
                         <a class="dropdown-item" href="#"> Batteries</a>
@@ -64,7 +69,7 @@
                        
     
                     </div> </li>
-                <li class="nav-item dropdown "> <a href="#" class="nav-link dropdown-toggle " id=" navbarDropdown" data-toggle="dropdown"> More </a>
+                <li class="nav-item dropdown "> <a href="#" class="nav-link dropdown-toggle " id="navbarDropdown" data-bs-toggle="dropdown"> More </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#"> Cashback Offers </a>
                         <a class="dropdown-item" href="#"> Find Tyre Dealers </a>
@@ -77,21 +82,29 @@
             </ul>
         </div>
 
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse d-flex fw-bold login" id="navbarSupportedContent" >
+            <i class="fa-solid fa-user-plus me-2 text-grey"></i>  
             Login
         </div>        
     </nav>
+</div>
 
-    <div class="container" style="height: 800px;" > 
+
+   
+
+    <div class="container mt-3 py-3 "  > 
 
         <div class="row">
 
-            <div class="col-12 col-lg-6">
-             <div class="d-flex">
+            <div class="col-12 col-lg-5 p-3">
+
+
+             <div class="d-flex ">
                 <h5 class="fw-bold"> SHREE HEMKUNT TYRES AND SERVICES </h5>
-                <i class="fa-solid fa-file-circle-check green ms-4 me-1"> </i>
+                <i class="fa-solid fa-file-circle-check green ms-4 me-1 mt-1"> </i>
                 <p class="green">Verified</p>
              </div>
+
                 <div class="d-flex">
                     <p class="bg-green">  4.9 </p>
                     <div class="d-flex stars ms-3">
@@ -101,28 +114,33 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <p class="text-decoration-underline mx-3"> 4579 reviews</p>
+                    <a class="text-decoration-underline mx-3"> 4579 reviews</a>
                     <button type="button" class="btn btn-outline-secondary btn-sm"  style="width: 50px; height: 30px">Rate</button>
                 </div>
 
                 <div>
-                    <div class="d-flex"><i class="fa-solid fa-location-dot me-4"></i> 
+                    <div class="d-flex"><i class="fa-solid fa-location-dot me-4 mt-1"></i> 
                         <p>PLOT NUMBER-09 GROUND FLOOR CISF CAMPUS ROAD, AHINSA KHAND-02 INDIRAPURAM, 
                         Ghaziabad, Uttar Pradesh, 201014</p> </div>
-                    <div class="d-flex"><i class="fa-regular fa-clock me-3"></i> 
+                    <div class="d-flex"><i class="fa-regular fa-clock me-3 mt-1"></i> 
                     <p class="text-grey">Open - Monday   to   Sunday - 10:00AM to 8:00PM</p> </div>
 
-                    <button type="button" class="btn btn-outline-danger"  style="width: 250px">Get Directions</button>
+                    <div class="w-50 d-flex justify-content-center mt-3"><button type="button" class="btn btn-outline-danger "  style="width: 250px">Get Directions</button></div>
+                    
                 </div>
 
-                <p class="fw-bold my-4"> 2240 Google Reviews </p>
+                </div>
 
-                <div class="col-lg-6  col-12">
-                    <div class="container brands" style="width: 350px; height: 200px;">
-                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/57087535001233.56e65299ab0be.jpg" width="350px"  height ="180px" class="d-inline-block me-5" />
-                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/57087535001233.56e65299ab0be.jpg" width="350px"  height ="180px"  class="d-inline-block me-5"/>
-                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/57087535001233.56e65299ab0be.jpg" width="350px"  height ="180px"  class="d-inline-block me-5"/>
-                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/57087535001233.56e65299ab0be.jpg" width="350px"  height ="180px"  class="d-inline-block me-5"/>
+                
+
+                <div class="col-lg-7  col-12" style="width: 350px;">
+
+                    
+                    <div class="container brands" style="width: 680px; height: 200px; border: none">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/57087535001233.56e65299ab0be.jpg" width="350px"  height ="180px" class="d-inline-block me-3" />
+                        <img src="https://cdn.tyreplex.net/news/wp-content/uploads/2020/01/IMG_20200117_163847-scaled.jpg" width="350px"  height ="180px"  class="d-inline-block me-3"/>
+                        <img src="https://images.jdmagicbox.com/comp/thiruvananthapuram/d1/0471px471.x471.140324121239.k3d1/catalogue/supreme-tyres-sreekaryam-thiruvananthapuram-tyre-dealers-10oja9ulow.jpg?clr=#1d3e49" width="350px"  height ="180px"  class="d-inline-block me-3"/>
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/57087535001233.56e65299ab0be.jpg" width="350px"  height ="180px"  class="d-inline-block me-3"/>
 
 
                     </div>
@@ -135,79 +153,81 @@
         </div>
 
 
-       <div class="brands ">
-
-        <div class="card d-inline-block  rounded-1 me-2" style="height: 150px; width: 400px;">
-            <div class="card-body">
-              <div class="d-flex">
-                  <img  src="https://static.vecteezy.com/system/resources/previews/000/593/472/original/vector-business-men-icon.jpg " class="rounded-circle border border-1" width="50px"  height="50px" />
-                  <p class="fw-bold ms-2 mt-2"> Mayank Shrivastava</p>
-              </div>
-  
-              <div class="text-grey fomt-small mt-2 " style="width: 350px; height: 100px">  <p>
-                Excellent service from start to finish. 100% satisfaction with the job, professionalism and overall service.
-                  We were delighted with your courteous , prompt and professional
-              </p></div>
-            </div>
-  
-          </div>
+            <!-- //aria-labels -->
 
 
-          <div class="card d-inline-block  rounded-1 me-2" style="height: 150px; width: 400px;">
-              <div class="card-body">
-                <div class="d-flex">
-                    <img  src="https://static.vecteezy.com/system/resources/previews/000/593/472/original/vector-business-men-icon.jpg " class="rounded-circle border border-1" width="50px"  height="50px" />
-                    <p class="fw-bold ms-2 mt-2"> Mayank Shrivastava</p>
-                </div>
-    
-                <div class="text-grey fomt-small mt-2 "  style="width: 350px; height: 50px">  Excellent service from start to finish. 100% satisfaction with the job, professionalism and overall service.
-                    We were delighted with your courteous , prompt and professional</div>
-              </div>
-    
-            </div>
-            <div class="card d-inline-block  rounded-1 me-2 " style="height: 150px; width: 400px;">
-              <div class="card-body">
-                <div class="d-flex">
-                    <img  src="https://static.vecteezy.com/system/resources/previews/000/593/472/original/vector-business-men-icon.jpg " class="rounded-circle border border-1" width="50px"  height="50px" />
-                    <p class="fw-bold ms-2 mt-2"> Mayank Shrivastava</p>
-                </div>
-    
-                <p class="text-grey fomt-small mt-2 ">  Excellent service from start to finish. 100% satisfaction with the job, professionalism and overall service.
-                    We were delighted with your courteous , prompt and professional</p>
-              </div>
-    
-            </div>
-            <div class="card d-inline-block   rounded-1 me-2" style="height: 150px; width: 400px;">
-              <div class="card-body">
-                <div class="d-flex">
-                    <img  src="https://static.vecteezy.com/system/resources/previews/000/593/472/original/vector-business-men-icon.jpg " class="rounded-circle border border-1" width="50px"  height="50px" />
-                    <p class="fw-bold ms-2 mt-2"> Mayank Shrivastava</p>
-                </div>
-    
-                <p class="text-grey fomt-small mt-2 ">  Excellent service from start to finish. 100% satisfaction with the job, professionalism and overall service.
-                    We were delighted with your courteous , prompt and professional</p>
-              </div>
-    
-            </div>
+       <div class="container px-3">
+        <p class="fw-bold mt-3"> 2240 Google Reviews </p>
+        <div class="brands">
 
-            <div class="card d-inline-block   rounded-1 me-2" style="height: 150px; width: 400px;">
-                <div class="card-body">
+            <div class="card d-inline-block  rounded-1 me-2 review-cards" >
+                <div class="card-body reviews">
                   <div class="d-flex">
                       <img  src="https://static.vecteezy.com/system/resources/previews/000/593/472/original/vector-business-men-icon.jpg " class="rounded-circle border border-1" width="50px"  height="50px" />
                       <p class="fw-bold ms-2 mt-2"> Mayank Shrivastava</p>
                   </div>
       
-                  <p class="text-grey fomt-small mt-2 ">  Excellent service from start to finish. 100% satisfaction with the job, professionalism and overall service.
-                      We were delighted with your courteous , prompt and professional</p>
+                  <div class="text-grey fomt-small mt-2 " style="width: 100%; height: 150px">  <p>
+                    Excellent service from start to finish. 100% satisfaction with the job, professionalism and overall service.
+                      We were delighted with your courteous , prompt and professional
+                  </p></div>
                 </div>
       
               </div>
-  
-  
+    
+    
+              <div class="card d-inline-block  rounded-1 me-2 my-5 review-cards" >
+                  <div class="card-body reviews">
+                    <div class="d-flex">
+                        <img  src="https://i.pinimg.com/originals/69/a5/60/69a5602fb6377d1fef9bb45e8db9e415.jpg" class="rounded-circle border border-1" width="50px"  height="50px" />
+                        <p class="fw-bold ms-2 mt-2"> Surjit Kumar</p>
+                    </div>
+        
+                    <div class="text-grey fomt-small mt-2 "  style="width: 100%; height: 150px">  Went for Tyre change . Ultimate service by shoppe boys. Owner behavior very cool. Guide as per ur budget. Highly recommend</div>
+                  </div>
+        
+                </div>
+                <div class="card d-inline-block  rounded-1 me-2 review-cards" >
+                  <div class="card-body reviews">
+                    <div class="d-flex">
+                        <img  src="https://images.chesscomfiles.com/uploads/v1/blog/899211.84b2e6d5.668x375o.70b92453c410@2x.jpg" class="rounded-circle border border-1" width="50px"  height="50px" />
+                        <p class="fw-bold ms-2 mt-2"> Rohit Bhati</p>
+                    </div>
+        
+                  <div style = "width: 100%; height: 150px">   <p class="text-grey fomt-small mt-2 ">  Best tyre shop in Indirapuram. Good dealing with customer. All types tyre available here. Price also responsible. Overall good experience</p></div>
+                  </div>
+        
+                </div>
+                <div class="card d-inline-block   rounded-1 me-2 review-cards" >
+                  <div class="card-body reviews">
+                    <div class="d-flex">
+                        <img  src="https://www.finsmes.com/wp-content/uploads/2017/12/pilotworks.png" class="rounded-circle border border-1" width="50px"  height="50px" />
+                        <p class="fw-bold ms-2 mt-2"> Pradeep Kumar</p>
+                    </div>
+        
+                   <div style = "width: 100%; height: 150px"> <p class="text-grey fomt-small mt-2 ">  Best shoppe in Indirapuram. Good customer service. After sale service amazing. Overall nice experience</p></div>
+                  </div>
+        
+                </div>
+    
+                <div class="card d-inline-block   rounded-1 me-2 review-cards" >
+                    <div class="card-body reviews">
+                      <div class="d-flex">
+                          <img  src="https://yt3.ggpht.com/a/AATXAJwn9fMhT0xnKEtFplncvX4KOKtIs131UNHfVw=s900-c-k-c0xffffffff-no-rj-mo" class="rounded-circle border border-1" width="50px"  height="50px" />
+                          <p class="fw-bold ms-2 mt-2"> Bilaal Khan</p>
+                      </div>
+          
+                     <div style = "width: 100%; height: 150px"> <p class="text-grey fomt-small mt-2 ">  Genuine and Authorized Tyre shop in indirapuram having latest manufactured stock. Well equipped workshop with professional staff. I change my care Tyre there, highly...</p></div>
+                    </div>
+          
+                  </div>
+      
+      
+           </div>
+    
+        </div>
+    
        </div>
-
-    </div>
-
 
 
 
@@ -215,119 +235,114 @@
         <p class="fw-bold">  Deals in </p>
       
        <div class="brands py-3">
-        <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+        <div class="card shadow-sm d-inline-block" style="width: 200px; height: 110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between" style="height: 110px;" >           
+            <div class="d-flex justify-content-center" style="height: 80px;">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> CEAT</p>          
             </div>
          </div>
 
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+         <div class="card shadow-sm d-inline-block" style="width: 200px; height:110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between   " style="height:110px;">           
+            <div class="d-flex justify-content-center" style="height: 80px;" >  <img  src="https://www.oponeo.ie/Temp/apollo-logo-110-f-f-l420-sk1.png"   class="img-fluid " width="60px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> Apollo</p>          
             </div>
          </div>
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+         <div class="card shadow-sm d-inline-block" style="width: 200px; height:110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between   " style="height:110px;">           
+            <div class="d-flex justify-content-center" style="height: 80px;">  <img  src="https://mysarkarinaukri.co/wp-content/uploads/2022/08/images-1-17-1.png"   class="img-fluid " width="70px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> MRF</p>          
             </div>
          </div>
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+         <div class="card shadow-sm d-inline-block" style="width: 200px; height:110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between   " style="height:110px;">           
+            <div class="d-flex justify-content-center" style="height: 80px;">  <img  src="https://mdpci.com/wp-content/uploads/2023/06/Kenda-Tire-LogoRed-Black.jpg"   class="img-fluid " width="70px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> Kenda</p>          
             </div>
          </div>
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+         <div class="card shadow-sm d-inline-block" style="width: 200px; height:110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between   " style="height:110px;">           
+            <div class="d-flex justify-content-center" style="height: 80px;">  <img  src="https://i1.wp.com/zeevector.com/wp-content/uploads/JK-Tyre-Logo-Vector.png?fit=1048%2C250&ssl=1"   class="img-fluid " width="70px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> JK Tyres</p>          
             </div>
          </div>
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+         <div class="card shadow-sm  d-inline-block" style="width: 200px; height:110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between   " style="height:110px;">           
+            <div class="d-flex justify-content-center" style="height: 70px;">  <img  src="https://th.bing.com/th/id/OIP.mQuXteZzcfWRoPb-LXxZ6QAAAA?rs=1&pid=ImgDetMain"   class="img-fluid " width="70px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> Bridgestone</p>          
             </div>
          </div>
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+         <div class="card shadow-sm d-inline-block" style="width: 200px; height:110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between   " style="height:110px;">           
+            <div class="d-flex justify-content-center" style="height: 70px;">  <img  src="https://th.bing.com/th/id/R.ce703b864aaa5b869bba3f81fa002cbe?rik=ple4bfVNXNbDPQ&riu=http%3a%2f%2ftyres.cardekho.com%2fnews%2fwp-content%2fuploads%2f2016%2f08%2fYOKOHAMA-Logo.jpg&ehk=Y2XH32siEdNqGRGJFBbv5Jq21lpiU6KknNobRfFE9TU%3d&risl=&pid=ImgRaw&r=0"   class="img-fluid " width="40px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> Yokohama</p>          
             </div>
          </div>
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+         <div class="card shadow-sm d-inline-block" style="width: 200px; height:110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between   " style="height:110px;">           
+            <div class="d-flex justify-content-center" style="height: 70px;">  <img  src="https://th.bing.com/th/id/OIP.qGlK6mm8uUzBw4IHLqm3VgHaBP?rs=1&pid=ImgDetMain"   class="img-fluid " width="70px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> Mirage</p>          
             </div>
          </div>
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+        
+         <div class="card shadow-sm d-inline-block" style="width: 200px; height:110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between   " style="height:110px;">           
+            <div class="d-flex justify-content-center" style="height: 70px;">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> CEAT</p>          
             </div>
          </div>
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+         <div class="card shadow-sm d-inline-block" style="width: 200px; height:110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between   " style="height:110px;">           
+            <div class="d-flex justify-content-center" style="height: 70px;">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> CEAT</p>          
             </div>
          </div>
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+         <div class="card shadow-sm d-inline-block" style="width: 200px; height:110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between   " style="height:110px;">           
+            <div class="d-flex justify-content-center" style="height: 70px;">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> CEAT</p>          
             </div>
          </div>
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+         <div class="card shadow-sm d-inline-block" style="width: 200px; height:110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between   " style="height:110px;">           
+            <div class="d-flex justify-content-center" style="height: 70px;">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> CEAT</p>          
             </div>
          </div>
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+         <div class="card shadow-sm d-inline-block" style="width: 200px; height:110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between   " style="height:110px;">           
+            <div class="d-flex justify-content-center" style="height: 70px;">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> CEAT</p>          
             </div>
          </div>
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+         <div class="card shadow-sm d-inline-block" style="width: 200px; height:110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between   " style="height:110px;">           
+            <div class="d-flex justify-content-center" style="height: 70px;">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> CEAT</p>          
             </div>
          </div>
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+         <div class="card shadow-sm d-inline-block" style="width: 200px; height:110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between   " style="height:110px;">           
+            <div class="d-flex justify-content-center" style="height: 70px;">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> CEAT</p>          
             </div>
          </div>
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+         <div class="card shadow-sm d-inline-block" style="width: 200px; height:110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between   " style="height:110px;">           
+            <div class="d-flex justify-content-center" style="height: 70px;">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> CEAT</p>          
             </div>
          </div>
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+         <div class="card shadow-sm d-inline-block" style="width: 200px; height:110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between   " style="height:110px;">           
+            <div class="d-flex justify-content-center" style="height: 70px;">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> CEAT</p>          
             </div>
          </div>
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
-            </div>
-         </div>
-         <div class="card shadow-md d-inline-block" style="width: 200px; height: 6rem; margin-right: 0.5rem" >
-            <div class="card-body d-flex flex-column justify-content-between   " style="height: 6rem;">           
-            <div class="d-flex justify-content-center">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
-             <p class="text-grey d-flex justify-content-center mt-3"> CEAT</p>          
+         <div class="card shadow-sm d-inline-block" style="width: 200px; height:110px; margin-right: 0.5rem" >
+            <div class="card-body d-flex flex-column justify-content-between   " style="height:110px;">           
+            <div class="d-flex justify-content-center" style="height: 70px;">  <img  src="https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-640x189.jpg"   class="img-fluid " width="70px" height="auto" /></div>
+             <p class="text-grey d-flex justify-content-center mt-4"> CEAT</p>          
             </div>
          </div>
        </div>
@@ -339,8 +354,8 @@
 
     <div class="container">
         <p class="fw-bold "> Services offered by this dealer</p>
-        <div class="d-flex ">
-            <div class="card shadow-sm " style = "width: 21rem; height: 13rem;">
+        <div class="d-flex justify-content-center ">
+            <div class="card shadow-sm me-3 " style = "width: 21rem; height: 13rem;">
                 <div class="card-body d-flex justify-content-center text-center">
                    <div>
                     <img src="https://static.vecteezy.com/system/resources/previews/046/599/237/non_2x/illustration-of-tire-repair-vector.jpg"  width="100px"  height="100px"/>
@@ -354,7 +369,7 @@
             </div>
 
 
-            <div class="card shadow-sm " style = "width: 21rem; height: 13rem;">
+            <div class="card shadow-sm  " style = "width: 21rem; height: 13rem;">
                 <div class="card-body d-flex justify-content-center text-center">
                    <div>
                     <img src="https://ronsautorv.com/wp-content/uploads/2014/02/power-steering-repair.jpg"  width="100px"  height="100px"/>
@@ -372,7 +387,7 @@
     </div>
 
 
-    <div class="container container2 justify-content-end">
+    <div class="container container2 justify-content-end bg-light ">
         <select id="selectTyres" name="selectTyres" style="width: 220px" class="p-2" >
             <option value="Apollo"> Filter By</options>
             <option value="Apollo"> Apollo</options>
@@ -401,7 +416,7 @@
 
         </select>
         
-        <select id="selectRange" name="selectRange" style="width: 200px " class="p-2" >
+        <select id="selectRange" name="selectRange" style="width: 200px " class="p-2  mt-3 mt-lg-0" >
             <option value="LowtoHigh"> Price Low to High</option>
             <option  value="HightoLow"> Price High to Low</option>
             <option value="MostPopular"> Most Popular </option>
@@ -415,37 +430,303 @@
     </div>
 
 
-    <div class="container container2">
-        <div class="card tyres" style="width: 24%; height: 270px;">
-            <div class="d-flex flex-row justify-content-between">
-                <div class="">
-                    <div class="p-2">
-                        <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "50px"  height="auto" />
-                        <br />
-                        <a href="#" class="text-capitalize"> Macho </a>
-                        <br />
-                        <a href="#">M-5 4.008 TT FRONT/</a>
-                       
-                        <a href="#">  <div class="d-flex"> <p class="bg-green">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div> </a>
-                       
-                        <a href="#"> Rs 5496</a>
-                        <br />
-                        <a href="#" class="green">Offer available</a>
-                        <br />
-                        <a href="#">Tubeless</a>
-                    </div>
-                   
-                </div>
-                <div class="d-flex flex-column justify-content-between">
-                    <div>Year warranty </div>
-                    <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" />
-                </div>
-            </div>           
-        </div>
+    <div class="container container2 bg-light">
+        
+        
+        
+       <div class="row">
+
+        <div class="col-lg-3 col-12">
+            <div class="card tyres" style="height: 250px;" >
+
+
+                <div class="row"> <div class="col-7">
+                  <div class="px-2">
+                      <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
+                     
+                     <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                    
+                     <div>  <a href="#" class="card-links text-grey my-1 ">M-5 4.008 TT FRONT/</a></div>
+                     
+                    <div>  <a href="#" class=" ">  <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div> </a></div>
+                     
+                     <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
+                     
+                   <div>   <a href="#" class="green card-links">Offer available</a></div>
+                  
+                     <div> <a href="#" class="card-links text-grey">Tubeless</a></div>
+                  </div>                   
+                 
+              </div>
+  
+              <div class=" col-5  d-flex flex-column justify-content-between ">
+                  <div class="year-warranty"> <i class="fa-solid fa-square-check"></i> Year warranty </div>
+                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="margin-top: 140px; margin-left: 34px;" />               
+              </div> </div>             
+              
+  
+          </div> </div>
+
+          <div class="col-lg-3 col-12">
+            <div class="card tyres" style="height: 250px;">
+
+
+                <div class="row"> <div class="col-7">
+                  <div class="px-2">
+                      <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
+                     
+                     <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                    
+                     <div>  <a href="#" class="card-links text-grey my-1 ">M-5 4.008 TT FRONT/</a></div>
+                     
+                    <div>  <a href="#" class=" ">  <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div> </a></div>
+                     
+                     <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
+                     
+                   <div>   <a href="#" class="green card-links">Offer available</a></div>
+                  
+                     <div> <a href="#" class="card-links text-grey">Tubeless</a></div>
+                  </div>                   
+                 
+              </div>
+  
+              <div class=" col-5  d-flex flex-column justify-content-between ">
+                  <div class="year-warranty"> <i class="fa-solid fa-square-check"></i> Year warranty </div>
+                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="margin-top: 140px; margin-left: 34px;" />               
+              </div> </div>             
+              
+  
+          </div> </div>
+
+          <div class="col-lg-3 col-12">
+            <div class="card tyres" style=" height: 250px;">
+
+
+                <div class="row"> <div class="col-7">
+                  <div class="px-2">
+                      <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
+                     
+                     <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                    
+                     <div>  <a href="#" class="card-links text-grey my-1 ">M-5 4.008 TT FRONT/</a></div>
+                     
+                    <div>  <a href="#" class=" ">  <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div> </a></div>
+                     
+                     <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
+                     
+                   <div>   <a href="#" class="green card-links">Offer available</a></div>
+                  
+                     <div> <a href="#" class="card-links text-grey">Tubeless</a></div>
+                  </div>                   
+                 
+              </div>
+  
+              <div class=" col-5  d-flex flex-column justify-content-between ">
+                  <div class="year-warranty"> <i class="fa-solid fa-square-check"></i> Year warranty </div>
+                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="margin-top: 140px; margin-left: 34px;" />               
+              </div> </div>             
+              
+  
+          </div> </div>
+
+
+          <div class="col-lg-3 col-12">
+            <div class="card tyres" style=" height: 250px;">
+
+
+                <div class="row"> <div class="col-7">
+                  <div class="px-2">
+                      <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
+                     
+                     <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                    
+                     <div>  <a href="#" class="card-links text-grey my-1 ">M-5 4.008 TT FRONT/</a></div>
+                     
+                    <div>  <a href="#" class=" ">  <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div> </a></div>
+                     
+                     <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
+                     
+                   <div>   <a href="#" class="green card-links">Offer available</a></div>
+                  
+                     <div> <a href="#" class="card-links text-grey">Tubeless</a></div>
+                  </div>                   
+                 
+              </div>
+  
+              <div class=" col-5  d-flex flex-column justify-content-between ">
+                  <div class="year-warranty"> <i class="fa-solid fa-square-check"></i> Year warranty </div>
+                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="margin-top: 140px; margin-left: 34px;" />               
+              </div> </div>             
+              
+  
+          </div> </div>
+
+
+
+
+
+       </div>
+
+
+
+
+       <div class="row mt-3">
+
+        <div class="col-lg-3 col-12">
+            <div class="card tyres w-100" style="height: 250px;">
+
+
+                <div class="row"> <div class="col-7">
+                  <div class="px-2">
+                      <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
+                     
+                     <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                    
+                     <div>  <a href="#" class="card-links text-grey my-1 ">M-5 4.008 TT FRONT/</a></div>
+                     
+                    <div>  <a href="#" class=" ">  <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div> </a></div>
+                     
+                     <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
+                     
+                   <div>   <a href="#" class="green card-links">Offer available</a></div>
+                  
+                     <div> <a href="#" class="card-links text-grey">Tubeless</a></div>
+                  </div>                   
+                 
+              </div>
+  
+              <div class=" col-5  d-flex flex-column justify-content-between ">
+                  <div class="year-warranty"> <i class="fa-solid fa-square-check"></i> Year warranty </div>
+                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="margin-top: 140px; margin-left: 34px;" />               
+              </div> </div>             
+              
+  
+          </div> </div>
+
+          <div class="col-lg-3 col-12">
+            <div class="card tyres" style=" height: 250px;">
+
+
+                <div class="row"> <div class="col-7">
+                  <div class="px-2">
+                      <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
+                     
+                     <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                    
+                     <div>  <a href="#" class="card-links text-grey my-1 ">M-5 4.008 TT FRONT/</a></div>
+                     
+                    <div>  <a href="#" class=" ">  <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div> </a></div>
+                     
+                     <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
+                     
+                   <div>   <a href="#" class="green card-links">Offer available</a></div>
+                  
+                     <div> <a href="#" class="card-links text-grey">Tubeless</a></div>
+                  </div>                   
+                 
+              </div>
+  
+              <div class=" col-5  d-flex flex-column justify-content-between ">
+                  <div class="year-warranty"> <i class="fa-solid fa-square-check"></i> Year warranty </div>
+                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="margin-top: 140px; margin-left: 34px;" />               
+              </div> </div>             
+              
+  
+          </div> </div>
+
+          <div class="col-lg-3 col-12">
+            <div class="card tyres" style=" height: 250px;">
+
+
+                <div class="row"> <div class="col-7">
+                  <div class="px-2">
+                      <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
+                     
+                     <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                    
+                     <div>  <a href="#" class="card-links text-grey my-1 ">M-5 4.008 TT FRONT/</a></div>
+                     
+                    <div>  <a href="#" class=" ">  <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div> </a></div>
+                     
+                     <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
+                     
+                   <div>   <a href="#" class="green card-links">Offer available</a></div>
+                  
+                     <div> <a href="#" class="card-links text-grey">Tubeless</a></div>
+                  </div>                   
+                 
+              </div>
+  
+              <div class=" col-5  d-flex flex-column justify-content-between ">
+                  <div class="year-warranty"> <i class="fa-solid fa-square-check"></i> Year warranty </div>
+                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="margin-top: 140px; margin-left: 34px;" />               
+              </div> </div>             
+              
+  
+          </div> </div>
+
+
+          <div class="col-lg-3 col-12">
+            <div class="card tyres" style=" height: 250px;">
+
+
+                <div class="row"> <div class="col-7">
+                  <div class="px-2">
+                      <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
+                     
+                     <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                    
+                     <div>  <a href="#" class="card-links text-grey my-1 ">M-5 4.008 TT FRONT/</a></div>
+                     
+                    <div>  <a href="#" class=" ">  <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div> </a></div>
+                     
+                     <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
+                     
+                   <div>   <a href="#" class="green card-links">Offer available</a></div>
+                  
+                     <div> <a href="#" class="card-links text-grey">Tubeless</a></div>
+                  </div>                   
+                 
+              </div>
+  
+              <div class=" col-5  d-flex flex-column justify-content-between ">
+                  <div class="year-warranty"> <i class="fa-solid fa-square-check"></i> Year warranty </div>
+                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="margin-top: 140px; margin-left: 34px;" />               
+              </div> </div>             
+              
+  
+          </div> </div>
+
+
+
+
+
+       </div>
+
+
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+        <div class="d-flex justify-content-center mt-4 "> <button type="button" class="btn border-1 border-black bg-white  ">View More <i class="fa-solid fa-angle-down"></i> </button></div>
+    
     </div>
 
 
-    <div class=" container container2 text-grey d-flex">
+    
+    
+    
+    
+    
+    
+    <div class=" container container2 text-grey d-flex bg-light">
         <a href="#"> Home </a>
         <p> /</p>
         <a href="#">Tyre Dealers </a>
@@ -484,7 +765,7 @@
         <div class="col-8">
             <p class="fw-bold"> Have a question about Tyres?</p>
             <p class="text-grey"> Get an answer in 24 hours from our experts</p>
-            <input class=" rounded-pill py-2 px-3 input1 shadow-sm"  placeholder="Ask or search your question"/>
+            <input class=" rounded-pill py-2 px-3 input1 shadow-sm"  placeholder="Ask or search your question" style="width: 300px" />
          </div>
         <div class="col-4"> <img src="https://static.vecteezy.com/system/resources/previews/009/884/901/original/man-character-thinking-free-vector.jpg" height="100px"  width="100px" class="rounded-circle "/> </div>
 
@@ -568,8 +849,7 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
