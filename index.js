@@ -5,7 +5,7 @@ const moreTyres = `<div class="container container3 bg-light">
         
        <div class="row g-2">
 
-        <div class="col-lg-3 col-12">
+        <div class="col-lg-3 col-12 col-md-6">
             <div class="card tyres mt-lg-0"  >
 
 
@@ -36,7 +36,7 @@ const moreTyres = `<div class="container container3 bg-light">
   
           </div> </div>
 
-          <div class="col-lg-3 col-12">
+          <div class="col-lg-3 col-12 col-md-6">
             <div class="card tyres mt-lg-0"  >
 
 
@@ -67,7 +67,7 @@ const moreTyres = `<div class="container container3 bg-light">
   
           </div> </div>
 
-          <div class="col-lg-3 col-12">
+          <div class="col-lg-3 col-12 col-md-6">
             <div class="card tyres mt-lg-0"  >
 
 
@@ -98,7 +98,7 @@ const moreTyres = `<div class="container container3 bg-light">
   
           </div> </div>
 
-          <div class="col-lg-3 col-12">
+          <div class="col-lg-3 col-12 col-md-6">
             <div class="card tyres mt-lg-0" >
 
 
@@ -140,7 +140,7 @@ const moreTyres = `<div class="container container3 bg-light">
 
        <div class="row  g-2 mt-lg-3">
 
-        <div class="col-lg-3 col-12">
+        <div class="col-lg-3 col-12 col-md-6">
             <div class="card tyres mt-lg-0" >
 
 
@@ -171,7 +171,7 @@ const moreTyres = `<div class="container container3 bg-light">
   
           </div> </div>
 
-          <div class="col-lg-3 col-12">
+          <div class="col-lg-3 col-12 col-md-6">
             <div class="card tyres mt-lg-0" >
 
 
@@ -202,7 +202,7 @@ const moreTyres = `<div class="container container3 bg-light">
   
           </div> </div>
 
-          <div class="col-lg-3 col-12">
+          <div class="col-lg-3 col-12 col-md-6">
             <div class="card tyres mt-lg-0" >
 
 
@@ -234,7 +234,7 @@ const moreTyres = `<div class="container container3 bg-light">
           </div> </div>
 
 
-          <div class="col-lg-3 col-12">
+          <div class="col-lg-3 col-12 col-md-6">
             <div class="card tyres mt-lg-0" >
 
 
