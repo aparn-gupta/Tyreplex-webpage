@@ -8,29 +8,57 @@
    
        <link rel="stylesheet" href="style.css"  />
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+       <style>
+
+        .dropdown-item {
+            font-weight: 600;
+            color: black;
+        }
+
+        .nav-link {
+            color: black;
+        }
+
+      
+
+       @media (min-width: 1200px) {
+        .w-lg-90 {
+            width: 90%;
+        }
+
+      
+       }
+       @media (max-width: 1201px) {
+        .w-full {
+            width: 100%;
+        }
+
+       
+       }
+       </style>
 </head>
 <body class="bg-light">
 
-    <div class="container container2 fs-6 fixed-top bg-white navbar-container"> 
-    <nav class="navbar navbar-light navbar-expand-lg " >
+    <div class="container-fluid fixed-top bg-white navbar-container d-flex justify-content-center "> 
+    <nav class="container-fluid navbar navbar-light navbar-expand-lg w-lg-90 w-full black"  >
      
-   
-        <a class="navbar-brand h1"
+    <a class="navbar-brand h1"
         href="#">
-        <img src="https://cdn.tyreplex.net/themes/sunrise/images/TP-logo.png"  width="140" height="auto" />
+        <img src="https://cdn.tyreplex.net/themes/sunrise/images/TP-logo.png"  width="140" height="auto" data-bs-toggle="tooltip" title="Tyreplex.com"/>
 
         </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent " aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         
-   
+          <div class="collapse navbar-collapse"></div>
 
-        <div class=" collapse navbar-collapse"  id="navbarSupportedContent">
-            <ul class="navbar-nav fw-bold">
-                <li class="nav-item dropdown active"> <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown"> Car Tyres </a> 
-                <div class="dropdown-menu">
+        <div class=" collapse navbar-collapse "  id="navbarSupportedContent">
+            <ul class="navbar-nav  fw-bold">
+                <li class="nav-item dropdown active"> <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Car Tyres </a> 
+                <div class="dropdown-menu mt-1 " aria-labelledby="navbarDropdown" style = "width: 13rem"  >
+                    <div class="d-flex justify-content-center fw-lighter" > Popular Car Tyre Brands</div>
                     <a class="dropdown-item" href="#"> CEAT Tyres </a>
                     <a class="dropdown-item" href="#"> Apollo Tyres </a>
                     <a class="dropdown-item" href="#">  Goodyear Tyres</a>
@@ -41,8 +69,9 @@
                     <a class="dropdown-item" href="#"> All Car Tyres </a>
 
                 </div></li>
-                <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle " id="navbarDropdown" data-bs-toggle="dropdown" > Bike Tyres </a>
-                    <div class="dropdown-menu">
+                <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle " id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" > Bike Tyres </a>
+                    <div class="dropdown-menu mt-1" aria-labelledby="navbarDropdown"  style = "width: 13rem"  >
+                        <div class="d-flex justify-content-center fw-lighter" > Popular Bike Tyre Brands</div>
                         <a class="dropdown-item" href="#"> CEAT Tyres </a>
                         <a class="dropdown-item" href="#"> Apollo Tyres </a>
                         <a class="dropdown-item" href="#">  Goodyear Tyres</a>
@@ -53,24 +82,24 @@
                         <a class="dropdown-item" href="#"> All Car Tyres </a>
     
                     </div> </li>
-                <li class="nav-item  "> <a href="#" class="nav-link  " id="navbarDropdown"> Tyre Pressure </a>
+                <li class="nav-item  "> <a href="#" class="nav-link" id="navbarDropdown" > Tyre Pressure </a>
                  </li>
-                <li class="nav-item dropdown "> <a href="#" class="nav-link dropdown-toggle " id="navbarDropdown" data-bs-toggle="dropdown"> Commercial Tyres </a>
-                    <div class="dropdown-menu">
+                <li class="nav-item dropdown "> <a href="#" class="nav-link dropdown-toggle " id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Commercial Tyres </a>
+                    <div class="dropdown-menu mt-1">
                         <a class="dropdown-item" href="#"> All Commercial Tyres </a>
                        
     
                     </div> </li>
-                <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle " id="navbarDropdown" data-bs-toggle="dropdown"> Accessories </a>
-                    <div class="dropdown-menu">
+                <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle " id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Accessories </a>
+                    <div class="dropdown-menu mt-1" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#"> Accessories </a>
                         <a class="dropdown-item" href="#"> Batteries</a>
                         <a class="dropdown-item" href="#"> Alloy Wheels</a>
                        
     
                     </div> </li>
-                <li class="nav-item dropdown "> <a href="#" class="nav-link dropdown-toggle " id="navbarDropdown" data-bs-toggle="dropdown"> More </a>
-                    <div class="dropdown-menu">
+                <li class="nav-item dropdown "> <a href="#" class="nav-link dropdown-toggle " id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> More </a>
+                    <div class="dropdown-menu mt-1" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#"> Cashback Offers </a>
                         <a class="dropdown-item" href="#"> Find Tyre Dealers </a>
                         <a class="dropdown-item" href="#">  Compare Tyres</a>
@@ -82,17 +111,17 @@
             </ul>
         </div>
 
-        <div class="form-inline d-flex fw-bold me-0 me-lg-3 " id="navbarSupportedContent" >
-            <i class="fa-solid fa-user-plus me-2 text-grey mt-1"></i>  
-            Login
-        </div>        
+        <div class="collapse navbar-collapse form-inline d-lg-flex justify-content-lg-end  fw-bold  mt-2 me-lg-4 " id="navbarSupportedContent" >
+           <div class="navbar-nav ">
+            <div> <i class="fa-solid fa-user-plus me-2 text-grey mt-1 fs-6 " data-bs-toggle="tooltip" title="Login"> </i>    Login</div></div>
+        </div>    
     </nav>
 </div>
 
 
    
 
-    <div class="container py-3 "   style="margin-top: 7rem;" > 
+    <div class="container py-3 "   style="margin-top: 5rem;" > 
 
         <div class="row">
 
@@ -109,16 +138,16 @@
                    <div class="d-flex my-2 ms-1">
                     <p class="bg-green " style = "height: 1.5rem;" >  4.9 </p>
                     <div class="d-flex stars ms-3">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"  data-bs-toggle="tooltip" title = "Poor" ></i>
+                        <i class="fa-solid fa-star" data-bs-toggle="tooltip" title = "Fair"></i>
+                        <i class="fa-solid fa-star"  data-bs-toggle="tooltip" title="Good"></i>
+                        <i class="fa-solid fa-star" data-bs-toggle="tooltip" title = "Excellent"></i>
+                        <i class="fa-solid fa-star" data-bs-toggle="tooltip" title="WOW!!"></i>
                     </div>
                    </div>
                     <div class="d-flex my-2">
-                        <a class="text-decoration-underline  "> 4579 reviews</a>
-                    <button type="button" class="btn btn-outline-secondary btn-sm"  style="width: 50px; height: 30px">Rate</button>
+                        <a href="#" class="text-decoration-underline  "> 4579 reviews</a>
+                    <button type="button" class="btn btn-outline-secondary btn-sm ms-3"  style="width: 50px; height: 30px">Rate</button>
                     </div>
                 </div>
 
@@ -156,87 +185,104 @@
             </div>
         </div>
 
-
+        
 
 
        <div class="container px-3">
         <p class="fw-bold mt-3"> 2240 Google Reviews </p>
+       
+       
+       
         <div class="brands">
 
-            <div class="card d-inline-block  rounded-1 me-2 review-cards" >
-                <div class="card-body reviews">
-                  <div class="d-flex">
-                      <img  src="https://static.vecteezy.com/system/resources/previews/000/593/472/original/vector-business-men-icon.jpg " class="rounded-circle border border-1" width="50px"  height="50px" />
-                      <p class="fw-bold ms-2 mt-2"> Mayank Shrivastava</p>
-                  </div>
-      
-                  <div class="text-grey fomt-small mt-2 pb-3" style="width: 100%; height: 100px; ">  <p style="text-overflow: ellipsis;">
-                    Excellent service from start to finish. 100% satisfaction with the job, professionalism and overall service.
-                      We were delighted with your courteous , prompt and professional
-                  </p></div>
-                </div>
-      
-              </div>
-    
-    
-              <div class="card d-inline-block  rounded-1 me-2 my-5 review-cards" >
-                  <div class="card-body reviews">
-                    <div class="d-flex">
-                        <img  src="https://i.pinimg.com/originals/69/a5/60/69a5602fb6377d1fef9bb45e8db9e415.jpg" class="rounded-circle border border-1" width="50px"  height="50px" />
-                        <p class="fw-bold ms-2 mt-2"> Surjit Kumar</p>
-                    </div>
-        
-                    <div class="text-grey fomt-small mt-2 "  style="width: 100%; height: 100px">  Went for Tyre change . Ultimate service by shoppe boys. Owner behavior very cool. Guide as per ur budget. Highly recommend</div>
-                  </div>
-        
-                </div>
-                <div class="card d-inline-block  rounded-1 me-2 review-cards" >
-                  <div class="card-body reviews">
-                    <div class="d-flex">
-                        <img  src="https://images.chesscomfiles.com/uploads/v1/blog/899211.84b2e6d5.668x375o.70b92453c410@2x.jpg" class="rounded-circle border border-1" width="50px"  height="50px" />
-                        <p class="fw-bold ms-2 mt-2"> Rohit Bhatnagar</p>
-                    </div>
-        
-                  <div style = "width: 100%; height: 100px">   <p class="text-grey fomt-small mt-2 ">  Best tyre shop in Indirapuram. Good dealing with customer. All types tyre available here. Price also responsible. Overall good experience</p></div>
-                  </div>
-        
-                </div>
-                <div class="card d-inline-block   rounded-1 me-2 review-cards" >
-                  <div class="card-body reviews">
-                    <div class="d-flex">
-                        <img  src="https://www.finsmes.com/wp-content/uploads/2017/12/pilotworks.png" class="rounded-circle border border-1" width="50px"  height="50px" />
-                        <p class="fw-bold ms-2 mt-2"> Pradeep Kumar</p>
-                    </div>
-        
-                   <div style = "width: 100%; height: 100px"> <p class="text-grey fomt-small mt-2 ">  Best shoppe in Indirapuram. Good customer service. After sale service amazing. Overall nice experience</p></div>
-                  </div>
-        
-                </div>
-    
-                <div class="card d-inline-block   rounded-1 me-2 review-cards" >
-                    <div class="card-body reviews">
-                      <div class="d-flex">
-                          <img  src="https://yt3.ggpht.com/a/AATXAJwn9fMhT0xnKEtFplncvX4KOKtIs131UNHfVw=s900-c-k-c0xffffffff-no-rj-mo" class="rounded-circle border border-1" width="50px"  height="50px" />
-                          <p class="fw-bold ms-2 mt-2"> Bilaawar Khan</p>
-                      </div>
-          
-                     <div style = "width: 100%; height: 100px"> <p class="text-grey fomt-small mt-2 ">  Genuine and Authorized Tyre shop in indirapuram having latest manufactured stock. Well equipped workshop with professional staff. I change my care Tyre there, highly...</p></div>
-                    </div>
-          
-                  </div>
-      
-      
-           </div>
+
+
+
+  <div class="card d-inline-block  rounded-1 me-2 my-5 review-cards " style="width: 350px; height: 180px;" >
+      <div class="card-body reviews" style="height: 180px;" >
+        <div class="d-flex card-title">
+            <img  src="https://static.vecteezy.com/system/resources/previews/000/593/472/original/vector-business-men-icon.jpg " class="rounded-circle border border-1" width="50px"  height="50px" />
+            <p class="fw-bold ms-2 mt-2"> Md Nasir</p>
+        </div>
+
+        <div  class="card-text" style="height: 100px;"   >  <p class="text-grey fomt-small mt-2 " >Excellent service from start to finish. 100% satisfaction with the job, professionalism and overall service.We were delighted with your courteous , prompt and professional</p></div>
+      </div>
+
+
+
+    </div>
+    <div class="card d-inline-block  rounded-1 me-2 review-cards " style="width: 350px; height: 180px;" >
+      <div class="card-body reviews" style="height: 180px;" >
+        <div class="d-flex card-title">
+            <img  src="https://images.chesscomfiles.com/uploads/v1/blog/899211.84b2e6d5.668x375o.70b92453c410@2x.jpg" class="rounded-circle border border-1" width="50px"  height="50px" />
+            <p class="fw-bold ms-2 mt-2"> Rohit Bhatnagar</p>
+        </div>
+
+      <div class="card-text" style="height: 100px;" >   <p class="text-grey fomt-small mt-2 ">  Best tyre shop in Indirapuram. Good dealing with customer. All types tyre available here. Price also responsible. Overall good experience</p></div>
+      </div>
+
+    </div>
+
+
+    <div class="card d-inline-block  rounded-1 me-2 my-5 review-cards " style="width: 350px; height: 180px;" >
+        <div class="card-body reviews" style="height: 180px;" >
+          <div class="d-flex card-title">
+              <img  src="https://i.pinimg.com/originals/69/a5/60/69a5602fb6377d1fef9bb45e8db9e415.jpg" class="rounded-circle border border-1" width="50px"  height="50px" />
+              <p class="fw-bold ms-2 mt-2"> Surjit Kumar</p>
+          </div>
+  
+          <div  class="card-text" style="height: 100px;"   >  <p class="text-grey fomt-small mt-2 " >Went for Tyre change . Ultimate service by shoppe boys. Owner behavior very cool. Guide as per ur budget. Highly recommend</p></div>
+        </div>
+  
+  
+  
+      </div>
+      <div class="card d-inline-block  rounded-1 me-2 review-cards " style="width: 350px; height: 180px;" >
+        <div class="card-body reviews" style="height: 180px;" >
+          <div class="d-flex card-title">
+              <img  src="https://yt3.ggpht.com/a/AATXAJwn9fMhT0xnKEtFplncvX4KOKtIs131UNHfVw=s900-c-k-c0xffffffff-no-rj-mo" class="rounded-circle border border-1" width="50px"  height="50px" />
+              <p class="fw-bold ms-2 mt-2"> Pradeep Kumar</p>
+          </div>
+  
+        <div class="card-text" style="height: 100px;" >   <p class="text-grey fomt-small mt-2 ">  Best tyre shop in Indirapuram. Good dealing with customer. All types tyre available here. Price also responsible. Overall good experience</p></div>
+        </div>
+  
+      </div>
+
+
+      <div class="card d-inline-block  rounded-1 me-2 my-5 review-cards " style="width: 350px; height: 180px;" >
+        <div class="card-body reviews" style="height: 180px;" >
+          <div class="d-flex card-title">
+              <img  src="https://i.pinimg.com/originals/69/a5/60/69a5602fb6377d1fef9bb45e8db9e415.jpg" class="rounded-circle border border-1" width="50px"  height="50px" />
+              <p class="fw-bold ms-2 mt-2"> Bilaawar Khan</p>
+          </div>
+  
+          <div  class="card-text" style="height: 100px;"   >  <p class="text-grey fomt-small mt-2 " > Genuine and Authorized Tyre shop in indirapuram having latest manufactured stock. Well equipped workshop with professional staff. I change my care Tyre there, highly...</p></div>
+        </div>
+  
+  
+  
+      </div>
+      <div class="card d-inline-block  rounded-1 me-2 review-cards " style="width: 350px; height: 180px;" >
+        <div class="card-body reviews" style="height: 180px;" >
+          <div class="d-flex card-title">
+              <img  src="https://images.chesscomfiles.com/uploads/v1/blog/899211.84b2e6d5.668x375o.70b92453c410@2x.jpg" class="rounded-circle border border-1" width="50px"  height="50px" />
+              <p class="fw-bold ms-2 mt-2"> Rohit Bhatnagar</p>
+          </div>
+  
+        <div class="card-text" style="height: 100px;" >   <p class="text-grey fomt-small mt-2 ">  Best shoppe in Indirapuram. Good customer service. After sale service amazing. Overall nice experience</p></div>
+        </div>
+  
+      </div>
+
+
+
+
+
     
         </div>
     
        </div>
-
-
-
-
-
-
 
 
 
@@ -399,9 +445,10 @@
     </div>
 
 
-    <div class="container container2 justify-content-end bg-light ">
-        <select id="selectTyres" name="selectTyres" style="width: 230px" class="p-2" >
-            <option value="Apollo"> Filter By</options>
+    <div class="container container2 bg-light px-2">
+       <div class="d-lg-flex justify-content-lg-end">
+        <select id="selectTyres" name="selectTyres" style="width: 230px" class="p-2 me-4" >
+            <option value="" disabled selected class="text-grey" > Filter By</options>
             <option value="Apollo"> Apollo</options>
             <option value="Bedrock"> Bedrock</options>
             <option value="Birla"> Birla</options>
@@ -431,25 +478,54 @@
         <select id="selectRange" name="selectRange" style="width: 210px " class="p-2  mt-3 mt-lg-0" >
             <option value="LowtoHigh"> Price Low to High</option>
             <option  value="HightoLow"> Price High to Low</option>
-            <option value="MostPopular"> Most Popular </option>
+            <option value="MostPopular selected"> Most Popular </option>
         </select>
 
 
 
-        <a href="#" class="advanced"> Advanced</a>
+       <button class="d-flex-inline ms-lg-4 mt-4 mt-lg-0" class="btn bg-light" type="button" style="border: none;" data-bs-toggle="collapse" data-bs-target="#collapseAdvanceOptions" aria-expanded="false" aria-controls="collapseAdvanceOptions"> <a href="#" class="advanced" style="font-size: 1rem;"> Advanced</a> <i class="fa-solid fa-angle-down text-grey"  ></i> </div>
+    </button>
+        
+      
+      
+      
+       <div class="collapse mt-4" id="collapseAdvanceOptions"> 
 
+        <div class="d-lg-flex justify-content-lg-end w-100">
+            <input id="AdvanceSearch" name="AdvanceSearch" style="width: 230px" class="p-2 me-4" placeholder="FOR EX: DB01AB1111"/>    
+        <select id="selectVehicleType" name="selectVehicleType" style="width: 210px " class="p-2  mt-3 mt-lg-0" >
+            <option value="" disabled selected class="text-grey"> Select Vehicle Type </option>
+            <option value="Car"> Car</option>
+            <option  value="Bike"> Bike </option>
+            <option value="Scooter"> Scooter </option>
+        </select>
+        </div>
+
+
+
+
+       </div>
+
+       
+      
 
     </div>
 
 
-    <div class="container container2 bg-light">
+   
+
+
+     
+   
+
+    <div class="container container3 bg-light">
         
         
         
-       <div class="row">
+       <div class="row g-2">
 
         <div class="col-lg-3 col-12">
-            <div class="card tyres  mt-3 mt-lg-0" style="height: 270px;" >
+            <div class="card tyres mt-lg-0"  >
 
 
                 <div class="row"> <div class="col-7">
@@ -458,116 +534,115 @@
                      
                      <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
                     
-                     <div>  <a href="#" class="card-links text-grey my-1 ">M-5 4.008 TT FRONT/</a></div>
+                     <div>  <a href="#" class="card-links text-grey ">M-5 4.008 TT FRONT/</a></div>
                      
-                    <div>  <a href="#" class=" ">  <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div> </a></div>
+                    <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div>
                      
                      <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
                      
                    <div>   <a href="#" class="green card-links">Offer available</a></div>
                   
-                     <div> <a href="#" class="card-links text-grey">Tubeless</a></div>
+                     <div class="mb-2"> <a href="#" class="card-links text-grey ">Tubeless</a></div>
                   </div>                   
                  
               </div>
   
-              <div class=" col-5  d-flex flex-column justify-content-between ">
-                  <div class="year-warranty"> <i class="fa-solid fa-square-check"></i> Year warranty </div>
-                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="margin-top: 140px; margin-left: 34px";  />               
+              <div class=" col-5  d-flex flex-column justify-content-between relative">
+                  <div class="year-warranty  "> <i class="fa-solid fa-square-check"></i> Year warranty </div>
+                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="position: absolute; right: 0.75rem; bottom: 0";  />               
               </div> </div>             
               
   
           </div> </div>
 
           <div class="col-lg-3 col-12">
-            <div class="card tyres  mt-3 mt-lg-0" style="height: 270px;">
+            <div class="card tyres mt-lg-0"  >
 
 
                 <div class="row"> <div class="col-7">
                   <div class="px-2">
-                      <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
+                    <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
                      
-                     <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                    <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                   
+                    <div>  <a href="#" class="card-links text-grey ">M-5 4.008 TT FRONT/</a></div>
                     
-                     <div>  <a href="#" class="card-links text-grey my-1 ">M-5 4.008 TT FRONT/</a></div>
-                     
-                    <div>  <a href="#" class=" ">  <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div> </a></div>
-                     
-                     <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
-                     
-                   <div>   <a href="#" class="green card-links">Offer available</a></div>
-                  
-                     <div> <a href="#" class="card-links text-grey">Tubeless</a></div>
-                  </div>                   
+                   <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div>
+                    
+                    <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
+                    
+                  <div>   <a href="#" class="green card-links">Offer available</a></div>
+                 
+                    <div class="mb-2"> <a href="#" class="card-links text-grey ">Tubeless</a></div>
+                 </div>                    
                  
               </div>
   
-              <div class=" col-5  d-flex flex-column justify-content-between ">
-                  <div class="year-warranty"> <i class="fa-solid fa-square-check"></i> Year warranty </div>
-                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="margin-top: 140px; margin-left: 34px;" />               
+              <div class=" col-5  d-flex flex-column justify-content-between relative">
+                  <div class="year-warranty  "> <i class="fa-solid fa-square-check"></i> Year warranty </div>
+                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="position: absolute; right: 0.75rem; bottom: 0";  />               
               </div> </div>             
               
   
           </div> </div>
 
           <div class="col-lg-3 col-12">
-            <div class="card tyres  mt-3 mt-lg-0" style=" height: 270px;">
+            <div class="card tyres mt-lg-0"  >
 
 
                 <div class="row"> <div class="col-7">
                   <div class="px-2">
-                      <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
+                    <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
                      
-                     <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                    <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                   
+                    <div>  <a href="#" class="card-links text-grey ">M-5 4.008 TT FRONT/</a></div>
                     
-                     <div>  <a href="#" class="card-links text-grey my-1 ">M-5 4.008 TT FRONT/</a></div>
-                     
-                    <div>  <a href="#" class=" ">  <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div> </a></div>
-                     
-                     <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
-                     
-                   <div>   <a href="#" class="green card-links">Offer available</a></div>
-                  
-                     <div> <a href="#" class="card-links text-grey">Tubeless</a></div>
-                  </div>                   
+                   <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div>
+                    
+                    <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
+                    
+                  <div>   <a href="#" class="green card-links">Offer available</a></div>
+                 
+                    <div class="mb-2"> <a href="#" class="card-links text-grey ">Tubeless</a></div>
+                 </div>                   
                  
               </div>
   
-              <div class=" col-5  d-flex flex-column justify-content-between ">
-                  <div class="year-warranty"> <i class="fa-solid fa-square-check"></i> Year warranty </div>
-                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="margin-top: 140px; margin-left: 34px;" />               
+              <div class=" col-5  d-flex flex-column justify-content-between relative">
+                  <div class="year-warranty  "> <i class="fa-solid fa-square-check"></i> Year warranty </div>
+                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="position: absolute; right: 0.75rem; bottom: 0";  />               
               </div> </div>             
               
   
           </div> </div>
 
-
           <div class="col-lg-3 col-12">
-            <div class="card tyres mt-3 mt-lg-0" style=" height: 270px">
+            <div class="card tyres mt-lg-0" >
 
 
                 <div class="row"> <div class="col-7">
                   <div class="px-2">
-                      <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
+                    <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
                      
-                     <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                    <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                   
+                    <div>  <a href="#" class="card-links text-grey ">M-5 4.008 TT FRONT/</a></div>
                     
-                     <div>  <a href="#" class="card-links text-grey my-1 ">M-5 4.008 TT FRONT/</a></div>
-                     
-                    <div>  <a href="#" class=" ">  <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div> </a></div>
-                     
-                     <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
-                     
-                   <div>   <a href="#" class="green card-links">Offer available</a></div>
-                  
-                     <div> <a href="#" class="card-links text-grey">Tubeless</a></div>
-                  </div>                   
+                   <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div>
+                    
+                    <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
+                    
+                  <div>   <a href="#" class="green card-links">Offer available</a></div>
+                 
+                    <div class="mb-2"> <a href="#" class="card-links text-grey ">Tubeless</a></div>
+                 </div>                    
                  
               </div>
   
-              <div class=" col-5  d-flex flex-column justify-content-between ">
-                  <div class="year-warranty"> <i class="fa-solid fa-square-check"></i> Year warranty </div>
-                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="margin-top: 140px; margin-left: 34px;" />               
+              <div class=" col-5  d-flex flex-column justify-content-between relative">
+                  <div class="year-warranty  "> <i class="fa-solid fa-square-check"></i> Year warranty </div>
+                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="position: absolute; right: 0.75rem; bottom: 0";  />               
               </div> </div>             
               
   
@@ -582,96 +657,96 @@
 
 
 
-       <div class="row mt-3">
+       <div class="row  g-2 mt-lg-3">
 
         <div class="col-lg-3 col-12">
-            <div class="card tyres mt-3 mt-lg-0" style="height: 270px">
+            <div class="card tyres mt-lg-0" >
 
 
                 <div class="row"> <div class="col-7">
                   <div class="px-2">
-                      <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
+                    <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
                      
-                     <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                    <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                   
+                    <div>  <a href="#" class="card-links text-grey ">M-5 4.008 TT FRONT/</a></div>
                     
-                     <div>  <a href="#" class="card-links text-grey my-1 ">M-5 4.008 TT FRONT/</a></div>
-                     
-                    <div>  <a href="#" class=" ">  <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div> </a></div>
-                     
-                     <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
-                     
-                   <div>   <a href="#" class="green card-links">Offer available</a></div>
-                  
-                     <div> <a href="#" class="card-links text-grey">Tubeless</a></div>
-                  </div>                   
+                   <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div>
+                    
+                    <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
+                    
+                  <div>   <a href="#" class="green card-links">Offer available</a></div>
+                 
+                    <div class="mb-2"> <a href="#" class="card-links text-grey ">Tubeless</a></div>
+                 </div>                    
                  
               </div>
   
-              <div class=" col-5  d-flex flex-column justify-content-between ">
-                  <div class="year-warranty"> <i class="fa-solid fa-square-check"></i> Year warranty </div>
-                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="margin-top: 140px; margin-left: 34px;" />               
+              <div class=" col-5  d-flex flex-column justify-content-between relative">
+                  <div class="year-warranty  "> <i class="fa-solid fa-square-check"></i> Year warranty </div>
+                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="position: absolute; right: 0.75rem; bottom: 0";  />               
               </div> </div>             
               
   
           </div> </div>
 
           <div class="col-lg-3 col-12">
-            <div class="card tyres  mt-3 mt-lg-0" style=" height: 270px">
+            <div class="card tyres mt-lg-0" >
 
 
                 <div class="row"> <div class="col-7">
                   <div class="px-2">
-                      <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
+                    <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
                      
-                     <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                    <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                   
+                    <div>  <a href="#" class="card-links text-grey ">M-5 4.008 TT FRONT/</a></div>
                     
-                     <div>  <a href="#" class="card-links text-grey my-1 ">M-5 4.008 TT FRONT/</a></div>
-                     
-                    <div>  <a href="#" class=" ">  <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div> </a></div>
-                     
-                     <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
-                     
-                   <div>   <a href="#" class="green card-links">Offer available</a></div>
-                  
-                     <div> <a href="#" class="card-links text-grey">Tubeless</a></div>
-                  </div>                   
+                   <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div>
+                    
+                    <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
+                    
+                  <div>   <a href="#" class="green card-links">Offer available</a></div>
+                 
+                    <div class="mb-2"> <a href="#" class="card-links text-grey ">Tubeless</a></div>
+                 </div>                 
                  
               </div>
   
-              <div class=" col-5  d-flex flex-column justify-content-between ">
-                  <div class="year-warranty"> <i class="fa-solid fa-square-check"></i> Year warranty </div>
-                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="margin-top: 140px; margin-left: 34px;" />               
+              <div class=" col-5  d-flex flex-column justify-content-between relative">
+                  <div class="year-warranty  "> <i class="fa-solid fa-square-check"></i> Year warranty </div>
+                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="position: absolute; right: 0.75rem; bottom: 0";  />               
               </div> </div>             
               
   
           </div> </div>
 
           <div class="col-lg-3 col-12">
-            <div class="card tyres  mt-3 mt-lg-0" style=" height: 270px">
+            <div class="card tyres mt-lg-0" >
 
 
                 <div class="row"> <div class="col-7">
                   <div class="px-2">
-                      <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
+                    <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
                      
-                     <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                    <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                   
+                    <div>  <a href="#" class="card-links text-grey ">M-5 4.008 TT FRONT/</a></div>
                     
-                     <div>  <a href="#" class="card-links text-grey my-1 ">M-5 4.008 TT FRONT/</a></div>
-                     
-                    <div>  <a href="#" class=" ">  <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div> </a></div>
-                     
-                     <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
-                     
-                   <div>   <a href="#" class="green card-links">Offer available</a></div>
-                  
-                     <div> <a href="#" class="card-links text-grey">Tubeless</a></div>
-                  </div>                   
+                   <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div>
+                    
+                    <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
+                    
+                  <div>   <a href="#" class="green card-links">Offer available</a></div>
+                 
+                    <div class="mb-2"> <a href="#" class="card-links text-grey ">Tubeless</a></div>
+                 </div>                 
                  
               </div>
   
-              <div class=" col-5  d-flex flex-column justify-content-between ">
-                  <div class="year-warranty"> <i class="fa-solid fa-square-check"></i> Year warranty </div>
-                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="margin-top: 140px; margin-left: 34px;" />               
+              <div class=" col-5  d-flex flex-column justify-content-between relative">
+                  <div class="year-warranty  "> <i class="fa-solid fa-square-check"></i> Year warranty </div>
+                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="position: absolute; right: 0.75rem; bottom: 0";  />               
               </div> </div>             
               
   
@@ -679,31 +754,31 @@
 
 
           <div class="col-lg-3 col-12">
-            <div class="card tyres  mt-3 mt-lg-0" style=" height: 270px">
+            <div class="card tyres mt-lg-0" >
 
 
                 <div class="row"> <div class="col-7">
                   <div class="px-2">
-                      <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
+                    <img  src="https://retrocontainers.com/images/clients/rallison.png " width = "80px"  height="auto" />
                      
-                     <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                    <div>  <a href="#" class="card-links bigger black capitalize"> Macho </a></div>
+                   
+                    <div>  <a href="#" class="card-links text-grey ">M-5 4.008 TT FRONT/</a></div>
                     
-                     <div>  <a href="#" class="card-links text-grey my-1 ">M-5 4.008 TT FRONT/</a></div>
-                     
-                    <div>  <a href="#" class=" ">  <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div> </a></div>
-                     
-                     <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
-                     
-                   <div>   <a href="#" class="green card-links">Offer available</a></div>
-                  
-                     <div> <a href="#" class="card-links text-grey">Tubeless</a></div>
-                  </div>                   
+                   <div class="d-flex"> <p class="bg-green ms-2">  4.9 </p>  <p class="text-grey ms-2"> 4 reviews</p> </div>
+                    
+                    <div> <a href="#" class="card-links bigger text-grey"> Rs 5496</a></div>
+                    
+                  <div>   <a href="#" class="green card-links">Offer available</a></div>
+                 
+                    <div class="mb-2"> <a href="#" class="card-links text-grey ">Tubeless</a></div>
+                 </div>                   
                  
               </div>
   
-              <div class=" col-5  d-flex flex-column justify-content-between ">
-                  <div class="year-warranty"> <i class="fa-solid fa-square-check"></i> Year warranty </div>
-                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="margin-top: 140px; margin-left: 34px;" />               
+              <div class=" col-5  d-flex flex-column justify-content-between relative">
+                  <div class="year-warranty  "> <i class="fa-solid fa-square-check"></i> Year warranty </div>
+                  <img src="https://i5.walmartimages.com/asr/a484efc8-c16d-46d2-a2b0-547f9064a9a3.40294d74ce97c7498096b5e8bf49f6aa.jpeg" width = "80px" height = "auto" style="position: absolute; right: 0.75rem; bottom: 0";  />               
               </div> </div>             
               
   
@@ -711,49 +786,29 @@
 
 
 
+       </div> 
+   
+       <div id="more-tyres"></div>
 
 
-       </div>
-
-
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-        <div class="d-flex justify-content-center mt-4 "> <button type="button" class="btn border-1 border-black bg-white  ">View More <i class="fa-solid fa-angle-down"></i> </button></div>
-    
-    </div>
+    <div class="d-flex justify-content-center mt-4 "> <button type="button"  id="show-tyres-button"   class="btn border-1 border-black bg-white" data-bs-toggle="collapse" data-bs-target="#collapseTyres" aria-expanded="false" aria-controls="collapseTyres" >View More <i class="fa-solid fa-angle-down"></i> </button></div>
 
 
     
-    
-    
-    
-    
-    
-    <div class=" container container2 text-grey d-flex bg-light">
-        <a href="#"> Home </a>
+    <div class=" container container2 d-flex bg-light mt-3 mt-lg-0 " class ="all-links" style="overflow-x: scroll;" >
+        <a href="#" class ="all-links" > Home </a>
         <p> /</p>
-        <a href="#">Tyre Dealers </a>
+        <a href="#" class ="all-links" >Tyre Dealers </a>
         <p> / </p>
-        <a href="#">Tyre Dealers Ghaziabad </a>
+        <a href="#" class ="all-links" >Tyre Dealers Ghaziabad </a>
         <p> / </p>
-        <a href="#"> SHREE HEMKUNT TYRES AND SERVICES </a>
+        <a href="#" class ="all-links" > SHREE HEMKUNT TYRES AND SERVICES </a>
 
     </div>
 
+ 
 
-
-
-
-    <div class="container rounded-2 ">
+    <div class="container rounded-2 fs-6 " >
         <div class=" row fw-bold py-1 ">  <div class="col-lg-4 ">   Payment mode </div></div>
         <div class="row py-1">
          <div class="col-lg-3 col-7 ">  <i class="fa-solid fa-check me-1"></i> Deposit to Account </div>
@@ -772,14 +827,14 @@
      </div>
 
 
-    <div class="container rounded-2 bg-yellow"> 
+    <div class="container rounded-2 bg-yellow fs-6" > 
        <div class="row">
         <div class="col-8">
             <p class="fw-bold"> Have a question about Tyres?</p>
             <p class="text-grey"> Get an answer in 24 hours from our experts</p>
-            <input class=" rounded-pill py-2 px-3 input1 shadow-sm"  placeholder="Ask or search your question" style="width: 300px" />
+            <input class=" rounded-pill py-2 px-3 input1 shadow-sm"  placeholder="Ask or search your question" style="width: 240px" />
          </div>
-        <div class="col-4"> <img src="https://static.vecteezy.com/system/resources/previews/009/884/901/original/man-character-thinking-free-vector.jpg" height="100px"  width="100px" class="rounded-circle "/> </div>
+        <div class="col-4"> <img src="https://static.vecteezy.com/system/resources/previews/009/884/901/original/man-character-thinking-free-vector.jpg" height="85px"  width="85px" class="rounded-circle "/> </div>
 
        </div>
 
@@ -791,48 +846,48 @@
        
       <div style = "width: 95%" >
     
-        <div class="row">
+        <div class="row" >
             <div class="col-12 col-lg-2 d-flex justify-content-center justify-content-lg-start"> 
-                <img src="https://cdn.tyreplex.net/themes/sunrise/images/TP-logo.png" width="100" height="auto" />
+                <img src="https://cdn.tyreplex.net/themes/sunrise/images/TP-logo.png" width="100" height="auto" data-bs-toggle="tooltip" title="Tyreplex" />
             </div>
 
             <div class="col-12 d-flex justify-content-center justify-content-lg-start p-2 d-lg-none"> 
-                <i class="fa-brands fa-facebook fa-2x p-2"></i>
-                <i class="fa-brands fa-instagram fa-2x p-2"></i>
+                <i class="fa-brands fa-facebook fa-2x p-2" data-bs-toggle="tooltip" title="Facebook" ></i>
+                <i class="fa-brands fa-instagram fa-2x p-2" data-bs-toggle="tooltip" title="Instagram" ></i>
 
             </div>
 
 
 
             <div class="col-12 col-lg-2"> 
-                Who are we?
+                <a href="#" class="footnote-links">Who are we?</a>
             </div>
             <div class="col-12 col-lg-3"> 
-                Are you a Tyre Dealer?
+                <a href="#" class="footnote-links">Are you a Tyre Dealer?</a>
             </div>
             <div class="col-12 col-lg-2"> 
-                Privacy Policy
+                <a href="#" class="footnote-links"> Privacy Policy</a>
             </div>
             <div class="col-12 col-lg-3"> 
-                Terms of Use
+                <a href="#" class="footnote-links">Terms of Use</a>
             </div>
         </div>
     
         <div class="row mt-lg-1">
             <div class=" col-lg-2 d-flex justify-content-center justify-content-lg-start p-2 d-none d-lg-block"> 
-                <i class="fa-brands fa-facebook fa-2x p-2"></i>
-                <i class="fa-brands fa-instagram fa-2x p-2"></i>
+                <i class="fa-brands fa-facebook fa-2x p-2" data-bs-toggle="tooltip" title="Facebook"></i>
+                <i class="fa-brands fa-instagram fa-2x p-2" data-bs-toggle="tooltip" title="Instagram"></i>
 
             </div>
            
             <div class="col-12 col-lg-2"> 
-                Contact us
+               <a href="#" class="footnote-links"> Contact us</a>
             </div>
             <div class="col-12 col-lg-3"> 
-                Career 
+                <a href="#" class="footnote-links">Career</a> 
             </div>
             <div class="col-12 col-lg-3"> 
-                Shipping and Return Policy
+                <a href="#" class="footnote-links">Shipping and Return Policy</a>
             </div>
         </div>
       
@@ -841,28 +896,12 @@
     </div>
 
 
-
-
-
-
-
-
-    <div class="container rounded-2">
-        <div class="row   ">
-            <div class="col-12 text-grey  d-flex justify-content-center align-items-center text-center"> <p>&#169; TyrePlex Technologies & Commerce Pvt. Ltd. All Rights Reserved.</p> </div>
+        
+            <div class="col-12 text-grey  d-flex justify-content-center text-center"> <p>&#169; TyrePlex Technologies & Commerce Pvt. Ltd. All Rights Reserved.</p> </div>
             
-        </div>
-
-    </div>
 
 
-
-
-
-
-
-
-
+    <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

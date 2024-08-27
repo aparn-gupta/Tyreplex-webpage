@@ -1,24 +1,37 @@
 
-
 .container {
     background-color: white;    
-    border: 1px solid rgb(215, 214, 214);
+    border: 1px solid #d7d6d6;
     padding: 1rem;
     margin-bottom: 1rem;
 
 }
 
+.footnote-links {
+    color: grey;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footnote-links:hover {
+    color: #3a8ddb;
+    text-decoration: underline;
+
+}
+
 
 .fa-check {
-    color: rgb(64, 180, 1);
+    color: #40b401;
 }
 
 .green {
-    color: rgb(64, 180, 1);
+    color: #40b401;
 }
 
+
+
 .bg-green {
-    background-color: rgb(64, 180, 1);
+    background-color: #40b401;
     color: white;
     width: 1.8rem;
     padding: 0 0 0 0.2rem
@@ -27,11 +40,11 @@
 }
 
 .bg-yellow {
-    background-color: rgb(240, 218, 145);
+    background-color: #f0da91;
 }
 
 .text-grey {
-    color : grey
+    color : grey;
 }
 
 .input1 {
@@ -40,12 +53,14 @@
 }
 .year-warranty {
     background-color: #fbd451d4;
-    padding: 0.25rem 0.5rem
+    /* padding: 0.25rem 0.5rem; */
+    position: absolute;
+    right: 0.75rem;
 }
 
 a {
     text-decoration: none;
-    color: grey;
+    
     margin-right: 0.5rem;
     margin-left: 0.5rem;
 }
@@ -54,7 +69,16 @@ a {
     background-color: gainsboro;
     border: none;
     padding: 1rem 0;
+    
+
+}
+
+.container3 {
+    background-color: gainsboro;
+    border: none;
+    padding: 1rem 0;
     font-size: 0.8rem;
+    
 
 }
 
@@ -94,6 +118,8 @@ a {
 
 }
 
+
+
 .black {
     color: black;
    
@@ -108,7 +134,9 @@ a {
 }
 
 #navbarDropdown:hover {
-    text-decoration: underline rgb(195, 24, 24);
+    /* text-decoration: underline rgb(195, 24, 24); */
+
+    box-shadow: 0 1px 0 0 #ff6347; 
 
     
 }
@@ -135,7 +163,8 @@ a {
 
 
 .tyres {
-    width: 100%
+    width: 100%;
+    margin-top: 1rem;
 }
 
 .review-cards {
@@ -174,7 +203,42 @@ a {
         height: 150px;
         width: 320px
     }
+
+    .navbar-size {
+        width: 90%;
+    } 
+
     
 
  
 }
+
+.all-links {
+    color: grey;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-size {
+    width: 100%;
+}
+
+
+.dropdown-menu {
+    transition: all 1s ease;
+}
+
+.navbar-nav .dropdown-toggle::after {
+    display:none;
+}
+
+.relative {
+    position: relative;
+
+}
+
